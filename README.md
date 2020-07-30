@@ -1,5 +1,4 @@
 # Python tutorial
-python tutorial
 01. 변수
 02. 리스트
 03. 조건문, 반복문
