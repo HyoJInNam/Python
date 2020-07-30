@@ -25,7 +25,18 @@
     * def function_name():  
 06. 전역 변수, 지역변수  
     * global  
-07. 자료구조
+07. 자료구조  
+    * stack  
+    * queue  
+    * deque = stack + queue  
+      * rotate()
+    * tuple  
+    * set  
+    * dictionary  
+      * ordereddict
+      * defaultdic
+      * counter
+      * namedtuple
 08. 클래스
 09. 예외처리
 10. 파일
