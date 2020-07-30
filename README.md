@@ -16,14 +16,15 @@
         * continue  
         * else  
     * 난수: random.randint()
-04. 전역 변수, 지역변수  
-    * global  
-05. 문자열  
+04. 문자열  
     * 서식  
       * "%d" % ()  
       * "{}".format()  
-     * naming  
-06. 함수
+    * naming  
+05. 함수
+    * def function_name():  
+06. 전역 변수, 지역변수  
+    * global  
 07. 자료구조
 08. 클래스
 09. 예외처리
