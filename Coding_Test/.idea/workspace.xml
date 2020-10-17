@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="364b068c-d8ad-4f06-850a-888557313427" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Hongik_Class/Recursive_function.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1iwb1qfTEH4l4tXdl1V9HTwNYTu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/2020-2-practical-programming-practices/Test_7.py" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub\Coding_Test\2020-2-practical-programming-practices" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Test_7">
+    <configuration name="14_1" type="PythonConfigurationType" factoryName="Python" folderName="Hongik_Class" temporary="true" nameIsGenerated="true">
+      <module name="Coding_Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Hongik_Class" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hongik_Class/14_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_7" type="PythonConfigurationType" factoryName="Python" folderName="Hongik_Class" temporary="true" nameIsGenerated="true">
+      <module name="Coding_Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2020-2-practical-programming-practices" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2020-2-practical-programming-practices/Test_7.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.14_1" />
+      <item itemvalue="Python.Test_7" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Test_7" />
+        <item itemvalue="Python.14_1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="364b068c-d8ad-4f06-850a-888557313427" name="Default Changelist" comment="" />
+      <created>1602821388294</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602821388294</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1062" y="388" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602858253672">
+      <screen x="0" y="0" width="2497" height="1440" />
+    </state>
+    <state x="1062" y="388" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2497.1440@0.0.2497.1440" timestamp="1602858253672" />
+    <state x="817" y="560" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602856997502">
+      <screen x="0" y="0" width="2497" height="1440" />
+    </state>
+    <state x="817" y="560" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2497.1440@0.0.2497.1440" timestamp="1602856997502" />
+    <state x="1474" y="480" key="EnvironmentVariablesDialog" timestamp="1602858239637">
+      <screen x="0" y="0" width="2497" height="1440" />
+    </state>
+    <state x="1474" y="480" key="EnvironmentVariablesDialog/0.0.2497.1440@0.0.2497.1440" timestamp="1602858239637" />
+    <state x="1650" y="478" key="FileChooserDialogImpl" timestamp="1602858249023">
+      <screen x="0" y="0" width="2497" height="1440" />
+    </state>
+    <state x="1650" y="478" key="FileChooserDialogImpl/0.0.2497.1440@0.0.2497.1440" timestamp="1602858249023" />
+    <state width="1225" height="329" key="GridCell.Tab.0.bottom" timestamp="1602942241892">
+      <screen x="0" y="0" width="2497" height="1440" />
+    </state>
+    <state width="1225" height="329" key="GridCell.Tab.0.bottom/0.0.2497.1440@0.0.2497.1440" timestamp="1602942241892" />
+    <state width="1225" height="329" key="GridCell.Tab.0.center" timestamp="1602942241892">
+      <screen x="0" y="0" width="2497" height="1440" />
+    </state>
+    <state width="1225" height="329" key="GridCell.Tab.0.center/0.0.2497.1440@0.0.2497.1440" timestamp="1602942241892" />
+    <state width="1225" height="329" key="GridCell.Tab.0.left" timestamp="1602942241892">
+      <screen x="0" y="0" width="2497" height="1440" />
+    </state>
+    <state width="1225" height="329" key="GridCell.Tab.0.left/0.0.2497.1440@0.0.2497.1440" timestamp="1602942241892" />
+    <state width="1225" height="329" key="GridCell.Tab.0.right" timestamp="1602942241892">
+      <screen x="0" y="0" width="2497" height="1440" />
+    </state>
+    <state width="1225" height="329" key="GridCell.Tab.0.right/0.0.2497.1440@0.0.2497.1440" timestamp="1602942241892" />
+    <state width="1229" height="507" key="GridCell.Tab.1.bottom" timestamp="1602875712437">
+      <screen x="0" y="0" width="2497" height="1440" />
+    </state>
+    <state width="1229" height="507" key="GridCell.Tab.1.bottom/0.0.2497.1440@0.0.2497.1440" timestamp="1602875712437" />
+    <state width="1229" height="507" key="GridCell.Tab.1.center" timestamp="1602875712437">
+      <screen x="0" y="0" width="2497" height="1440" />
+    </state>
+    <state width="1229" height="507" key="GridCell.Tab.1.center/0.0.2497.1440@0.0.2497.1440" timestamp="1602875712437" />
+    <state width="1229" height="507" key="GridCell.Tab.1.left" timestamp="1602875712437">
+      <screen x="0" y="0" width="2497" height="1440" />
+    </state>
+    <state width="1229" height="507" key="GridCell.Tab.1.left/0.0.2497.1440@0.0.2497.1440" timestamp="1602875712437" />
+    <state width="1229" height="507" key="GridCell.Tab.1.right" timestamp="1602875712437">
+      <screen x="0" y="0" width="2497" height="1440" />
+    </state>
+    <state width="1229" height="507" key="GridCell.Tab.1.right/0.0.2497.1440@0.0.2497.1440" timestamp="1602875712437" />
+    <state x="1371" y="367" key="SettingsEditor" timestamp="1602858536880">
+      <screen x="0" y="0" width="2497" height="1440" />
+    </state>
+    <state x="1371" y="367" key="SettingsEditor/0.0.2497.1440@0.0.2497.1440" timestamp="1602858536880" />
+    <state x="1431" y="452" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1602858622661">
+      <screen x="0" y="0" width="2497" height="1440" />
+    </state>
+    <state x="1431" y="452" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.2497.1440@0.0.2497.1440" timestamp="1602858622661" />
+  </component>
+</project>
