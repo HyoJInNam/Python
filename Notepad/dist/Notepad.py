@@ -61,7 +61,8 @@ class Notepad(QMainWindow, winNotepad):
 
     # ================== MENU FILE======================
     def clear(self):
-        self.close()
+        if self.is_changed_data() == True:
+            self.clear()
         self.textEdit.clear()
 
     def new(self):
@@ -237,14 +238,6 @@ class Notepad(QMainWindow, winNotepad):
         print('prev!')
         self.wFind.prev()
 
-    def replace(self, find_str, replace_str):
-        if find_str and replace_str:
-            self.textEdit.textCursor().removeSelectedText()
-            self.textEdit.textCursor().insertHtml(replace_str)
-    def replace_all(self, find_str, replace_str):
-        text = self.textEdit.toPlainText()
-        text = text.replace(find_str, replace_str)
-        self.textEdit.setPlainText(text)
     def dialog_replace(self):
         npreplace.wReplace(self)
 
@@ -264,6 +257,7 @@ class Notepad(QMainWindow, winNotepad):
             self.textEdit.setLineWrapMode(QTextEdit.WidgetWidth)
         elif self.textEdit.lineWrapMode() == QTextEdit.WidgetWidth:
             self.textEdit.setLineWrapMode(QTextEdit.NoWrap)
+
     def font(self):
         font, ok = QFontDialog.getFont()
         if ok:
@@ -271,16 +265,24 @@ class Notepad(QMainWindow, winNotepad):
 
     # ================== MENU FORMAT======================
     def zoomIn(self):
-        self.zoom -= 1
         self.textEdit.zoomIn(10)
+        self.zoom -= 10
+
     def zoomOut(self):
-        self.zoom += 1
         self.textEdit.zoomOut(10)
+        self.zoom += 10
+
     def zoomRestoreDefault(self):
-        self.textEdit.zoomIn(self.zoom * 10)
+        self.textEdit.zoomIn(self.zoom)
         self.zoom = 0
+
+    def updateStatus(self):
+        cs = self.textEdit.textCursor();
+        str = 'Line '+ str(cs.blockNumber())+', Colum '+ str(cs.columnNumber() + 1)+ ', zoom '+ str(100 + self.zoom), '%'
+        print(str)
+        #self.statusbar.showMessage(str);
     def statusBar(self):
-        print('statusBar!')
+        self.statusbar.hideOrShow()
 
     # ================== MENU HELP======================
     def help(self):

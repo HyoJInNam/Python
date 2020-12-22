@@ -125,7 +125,6 @@ p, li { white-space: pre-wrap; }
     <addaction name="action_findNext"/>
     <addaction name="action_findPrev"/>
     <addaction name="action_replace"/>
-    <addaction name="action_goTo"/>
     <addaction name="separator"/>
     <addaction name="action_selectAll"/>
     <addaction name="action_time_date"/>
@@ -366,7 +365,7 @@ p, li { white-space: pre-wrap; }
     <string>확대하기(I)</string>
    </property>
    <property name="shortcut">
-    <string>Ctrl++</string>
+    <string>Ctrl+=, Ctrl++</string>
    </property>
   </action>
   <action name="action_zoomOut">
@@ -374,7 +373,7 @@ p, li { white-space: pre-wrap; }
     <string>축소하기(O)</string>
    </property>
    <property name="shortcut">
-    <string>Ctrl+-</string>
+    <string>Ctrl+-, Ctrl+-</string>
    </property>
   </action>
   <action name="action_zoomRestoreDefault">

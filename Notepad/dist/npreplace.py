@@ -36,10 +36,14 @@ class wReplace(QDialog):
             self.replace_bReplaceAll.setEnabled(False)
 
     def replace(self):
-        self.parent.replace(self.replace_find_str_text.text(), self.replace_str_text.text())
+        if self.replace_find_str_text.text() and self.replace_str_text.text():
+            self.pTextEdit.textCursor().removeSelectedText()
+            self.pTextEdit.textCursor().insertHtml(self.replace_str_text.text())
 
     def replace_all(self):
-        self.parent.replace_all(self.replace_find_str_text.text(), self.replace_str_text.text())
+        text = self.pTextEdit.toPlainText()
+        text = text.replace(self.replace_find_str_text.text(), self.replace_str_text.text())
+        self.pTextEdit.setPlainText(text)
 
     def next(self):
         self.parent.next(self.replace_find_str_text.text(), self.replace_capital.isChecked())
